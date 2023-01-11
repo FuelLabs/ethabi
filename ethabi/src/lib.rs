@@ -42,7 +42,7 @@ mod filter;
 mod function;
 mod log;
 #[cfg(feature = "serde")]
-mod operation;
+pub mod operation;
 mod param;
 pub mod param_type;
 mod signature;
